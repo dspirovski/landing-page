@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ms+Madi&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h1-styled {
+  @apply text-center md:text-left text-[18px] md:text-[4.948vw];
+}
+
+.h2-styled {
+  @apply text-[14px] md:text-[2.865vw] font-normal;
+}
+
+.h3-styled {
+  @apply text-center md:text-left text-[3.385vw] font-normal;
+}
+
+.h4-styled {
+  @apply text-[12px] md:text-[1.563vw] font-normal;
+}
+
+.h5-styled {
+  @apply text-[8px] md:text-[0.938vw] font-normal;
+}
+
+.h6-styled {
+  @apply text-[8px] md:text-[0.729vw] font-normal;
+}
+
+.header-font-styled {
+  @apply text-sm  md:text-lg lg:text-lg font-normal;
+}
+
+.socialIcon-styled {
+  @apply bg-[#83B2EE] ml-[2.083vw] flex justify-center items-center;
+}

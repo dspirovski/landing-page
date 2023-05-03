@@ -7,6 +7,11 @@ import SidePanel from "./components/SidePanel/SidePanel";
 import { EditorState, convertToRaw } from "draft-js";
 import { convertToHTML } from "draft-convert";
 
+/**
+ * The main component of the application.
+ * @returns {JSX.Element} The rendered component.
+ */
+
 const App = () => {
   const [showSidePanel, setShowSidePanel] = useState(false);
   const [title, setTitle] = useState("");

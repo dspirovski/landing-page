@@ -3,6 +3,16 @@ import ellipse from "../../images/ellipse.svg";
 import watchImage1 from "../../images/watchImage1.svg";
 import DOMPurify from "dompurify";
 
+/**
+
+Renders a hero section with an image and dynamic content.
+@param {Object} props - The component props.
+@param {string} props.title - The title of the hero section. Optional, defaults to the title fetched from the API.
+@param {string} props.description - The description of the hero section. Optional, defaults to the description fetched from the API.
+@param {string} props.convertedContent - The converted content of the hero section. Used to render HTML content safely.
+@returns {JSX.Element} - The rendered component.
+*/
+
 const HeroComponent = ({ title, description, convertedContent }) => {
   const [content, setContent] = useState([]);
 

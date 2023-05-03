@@ -2,6 +2,12 @@ import watchImage2 from "../../images/watchImage2.svg";
 import rectangle from "../../images/rectangle.svg";
 import ellipseBig from "../../images/ellipseBig.svg";
 
+/**
+
+Renders the product description section with health and fitness partner information and an image of the product.
+@return {JSX.Element} JSX.Element representing the product description section.
+*/
+
 const ProductDescription = () => {
   return (
     <div className="flex flex-col md:flex md:flex-row justify-center relative">

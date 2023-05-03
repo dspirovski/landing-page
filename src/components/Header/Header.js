@@ -1,3 +1,9 @@
+/**
+
+A functional component representing the header of a webpage.
+@returns {JSX.Element} The header JSX element.
+*/
+
 const Header = () => {
   return (
     <ul className="w-full text-black h-12 p-10 text-lg flex justify-end items-center">

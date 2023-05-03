@@ -2,6 +2,20 @@ import { Editor } from "react-draft-wysiwyg";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import { EditorState, ContentState, convertFromHTML } from "draft-js";
 
+/**
+
+A React component that represents the side panel that displays the form to add a new page.
+@param {object} props - The props object that contains properties for the SidePanel component.
+@param {function} props.setShowSidePanel - A function to set whether the side panel is shown.
+@param {string} props.title - The title of the page being added.
+@param {function} props.setTitle - A function to set the title of the page being added.
+@param {string} props.description - The description of the page being added.
+@param {boolean} props.showSidePanel - A boolean value indicating whether the side panel is shown.
+@param {EditorState} props.editorState - The editor state of the page being added.
+@param {function} props.setEditorState - A function to set the editor state of the page being added.
+@returns {JSX.Element} - A JSX.Element that represents the SidePanel component.
+**/
+
 const SidePanel = ({
   setShowSidePanel,
   title,

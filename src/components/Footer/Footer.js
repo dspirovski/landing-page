@@ -2,6 +2,12 @@ import facebookIcon from "../../images/facebookIcon.svg";
 import linkedinIcon from "../../images/linkedInIcon.svg";
 import instagramIcon from "../../images/instagramIcon.svg";
 
+/**
+
+A functional component representing the Footer section of a website.
+@returns {JSX.Element} The JSX representation of the Footer component.
+*/
+
 const Footer = () => {
   return (
     <div className="py-[2.292vw] bg-[#161616] mt-[6.667vw] px-[5%] md:px-[7%]">

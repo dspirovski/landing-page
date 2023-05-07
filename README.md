@@ -9,3 +9,5 @@ Features:
 
 This project was made with JavaScript, React JS and Tailwind.
 
+NOTE: To run this project, please type npm start + npx json-server --watch src/data/heroComponentData.json --port 8000 (to run the local server).
+
